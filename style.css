@@ -1,0 +1,46 @@
+
+
+
+.header {
+    background-color:#0000;
+    display:flex;
+    justify-content:space-around;
+    margin-left: 20px;
+    border:groove ;
+   
+}
+
+ item h3{
+     color: yellow;
+ }
+ .grid{
+     justify-content: space-around;
+     display: flex;
+     background-color: coral;
+ }
+ .foter{
+    display: flex;
+    background-color: darksalmon;
+    justify-content:space-around;
+}
+.item{
+    position: relative;
+
+}
+.item h3{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+ 
+}
+.item:hover h3{
+    opacity: 1;
+}
+.item:hover img{
+    opacity: 70%;
+}
+
+ 
+ 
