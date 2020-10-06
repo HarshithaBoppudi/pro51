@@ -41,6 +41,11 @@
 .item:hover img{
     opacity: 70%;
 }
-
+a:link{
+    color:rgb(13, 231, 42);
+}
+a:visited{
+    color:rgb(13, 231, 42);
+}
  
  
